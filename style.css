@@ -155,8 +155,12 @@ article p {
     html {
         font-size: 13px;
     } 
+    .container-portada {
+        height: 200px;
+    }
      
 }
+
 
      
 
