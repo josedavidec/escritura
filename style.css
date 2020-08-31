@@ -41,19 +41,6 @@ header {
     font-size: 1.2rem;
 }
 
-.icon-menu {
-    position: absolute;
-    right: 10px;
-    color: white;
-    top: 14px;
-    font-size: 1.7rem;
-    border: 1px solid  rgba(255, 255, 255, 0.4);
-    cursor: pointer;
-}
-.icon-menu:hover{
-    background: rgba(255, 255, 255, 0.4);
-}
-
 
 .container-portada {
     width: 100%;
