@@ -8,3 +8,15 @@ addEventListener('DOMContentLoaded', () => {
         })
     }
 })
+
+
+function mostrarComentarios() {
+    document.getElementById('comentarios').style.display = 'block';
+    document.getElementById('boculto').style.display = 'block';
+
+} 
+function ocultarComentarios() {
+    document.getElementById('comentarios').style.display = 'none';
+    document.getElementById('boculto').style.display = 'none';
+
+}

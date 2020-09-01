@@ -56,12 +56,13 @@
             </p>
             <div class="container-button">
                 <a class="button" href="./Paginas/actividades.html">Actividades</a>
-                <a class="button2" href="./Paginas/escrituraauto.html">Escrito Automático</a>
+                <a class="button" href="./Paginas/escrituraauto.html">Escrito Automático</a>
             </div>
-
-
-
-            <div class="mostrarocultar">
+            <div class="container-button">
+                <a href="javascript:void(0);" class="button2" onclick="mostrarComentarios();">Comentar</a>
+                <a href="javascript:void(0);" id="boculto" class="button2" onclick="ocultarComentarios();" style="display: none;">Cerrar comentarios</a>
+            </div>
+            <div id="comentarios">
                 <div id="disqus_thread"></div>
                 <script>
 
