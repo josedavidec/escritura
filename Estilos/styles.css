@@ -80,6 +80,9 @@ p{
 .trnsf-reset{
 	transform: translateX(0px);
 }
+.trb {
+	left:40%;
+}
 
 /* @media para hacer el texto responsivo */
 
@@ -87,6 +90,7 @@ p{
 	p{
 		font-size: 12px;
 	}
+	
 }
 
 

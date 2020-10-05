@@ -3,6 +3,7 @@ var back = document.querySelector('.face-back');
 var flip = document.querySelector('.book-content');
 var uno = document.querySelectorAll('.book');
 var portada = document.querySelectorAll('#portada');
+var portadaback = document.querySelectorAll('#portada-back')
 
 var contZindex = 2;
 var customZindex = 1;
@@ -43,6 +44,10 @@ for (var i = 0; i < uno.length; i++) {
 			flip.classList.remove("trnsf");
 			flip.classList.add("trnsf-reset");
 		}
-
+		// if (tgt.getAttribute('id') == 'portada-back') {
+		// 	flip.classList.remove("trnsf-resetback");
+		// 	flip.classList.add("trnsfback");
+		// }
+		
 	});
 }
