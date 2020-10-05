@@ -17,7 +17,7 @@ p{
 }
 .container{
 	width: 100%;
-	/* height: 90vh; */
+	height: 90vh;
 	
 	
 }
@@ -80,15 +80,17 @@ p{
 .trnsf-reset{
 	transform: translateX(0px);
 }
-.trb {
-	left:40%;
-}
+
 
 /* @media para hacer el texto responsivo */
 
 @media screen and (max-width: 800px){
 	p{
 		font-size: 12px;
+	}
+	.book-content {
+		width: 300px;
+		
 	}
 	
 }
