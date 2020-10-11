@@ -47,7 +47,7 @@ header {
     border-radius: 3px;
     margin: 0 5px;
 }
-.menu_items li a {
+.menu_items li a{
     text-decoration: none;
     color: white;
     display: block;
@@ -60,6 +60,7 @@ header {
     background: rgba(255, 0, 3, .3);
     transition: .4s;
 }
+
 .icon-menu {
     right: 10px; 
     color: white;
