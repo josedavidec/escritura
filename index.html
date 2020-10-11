@@ -53,11 +53,15 @@
             <p class="autor">
                 Charles Mingus.
             </p>
-            <div class="container-button">
-                <a href="./Paginas/personaje/historia.html" class="button">Historia</a>
-                <a class="button" href="./Paginas/escritura/escritura.html">Escritura automática</a>
+            <div  class="container-button">
+                <a href="javascript:void(0);" class="button"id="ocultar" onclick="mostrarPaginas();">Actividades</a>
+                 <a href="./Paginas/personaje/historia.html" class="button" id="mostrar1" style="display:none;">Historia</a>
+                <a class="button" href="./Paginas/escritura/escritura.html" id="mostrar2" style="display:none;">Escritura automática</a>
                 
             </div>
+            
+               
+            
             <!-- <div class="container-button">
                 <a href="javascript:void(0);" class="button2" onclick="mostrarComentarios();">Comentar</a>
                 <a href="javascript:void(0);" id="boculto" class="button2" onclick="ocultarComentarios();"
@@ -69,5 +73,16 @@
     </main>
     
 </body>
+<script>
+	function mostrarPaginas() {
+		document.getElementById('ocultar').style.display = 'none';
+        document.getElementById('mostrar1').style.display = 'block';
+        document.getElementById('mostrar2').style.display = 'block';
+		
+
+	}
+	
+
+</script>
 
 </html>
