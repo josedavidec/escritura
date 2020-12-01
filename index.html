@@ -56,7 +56,14 @@
             <div  class="container-button">
                 <a href="javascript:void(0);" class="button"id="ocultar" onclick="mostrarPaginas();">Actividades</a>
                  <a href="./Paginas/personaje/historia.html" class="button" id="mostrar1" style="display:none;">Historia</a>
-                <a class="button" href="./Paginas/escritura/escritura.html" id="mostrar2" style="display:none;">Escritura automática</a>
+                <a class="button" href="javascript:void(0);" id="mostrar2" onclick="mostrarEscritura();" style="display:none;">Escritura</a>
+                <a href="./Paginas/escritura/escritura.html" class="button" id="mostrar3" style="display:none;>
+                	Primer corte
+                </a>
+                <a href="./Paginas/escritura/final.html" class="button" id="mostrar4" style="display:none;>
+                	Final
+                </a>
+
                 
             </div>
             
@@ -79,6 +86,12 @@
         document.getElementById('mostrar1').style.display = 'block';
         document.getElementById('mostrar2').style.display = 'block';
 		
+
+	}
+	function mostrarEscritura() {
+		document.getElementById('mostrar2').style.display = 'none';
+		document.getElementById('mostrar3').style.display = 'block';
+		document.getElementById('mostrar4').style.display = 'block';
 
 	}
 	
