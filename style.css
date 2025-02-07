@@ -9,7 +9,10 @@ html {
     font-size: 18px;
     
 }
+img {
+  width: 100%;
 
+}
 
 h1 {
   font-weight: 500;
