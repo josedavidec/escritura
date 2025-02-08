@@ -49,7 +49,7 @@ h1 {
 .content {
     margin-top: 10px;
 	margin: 0 auto;
-	width: 50%;
+	width: 30%;
 	background: var(--second-bg-color);
 	border-radius: 30px;
 	overflow: hidden;
@@ -121,6 +121,19 @@ h1 {
 @media screen and (min-width: 768px) {
     .content {
         width: 90%;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .content {
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        width: 40%;
     }
     
 }
