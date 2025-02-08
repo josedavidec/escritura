@@ -21,6 +21,7 @@ h1 {
 .content {
 	margin: 0 auto;
 	width: 30%;
+	background: red;
 }
 
 .redes {
