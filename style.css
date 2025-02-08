@@ -20,7 +20,9 @@ html {
 
 body {
     background: var(--bg-color);
+    
 }
+
 
 img {
   width: 95%;
@@ -42,6 +44,7 @@ h1 {
 }
 
 .content {
+    margin-top: 10px;
 	margin: 0 auto;
 	width: 90%;
 	background: var(--second-bg-color);
