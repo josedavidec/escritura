@@ -63,6 +63,7 @@ h1 {
 	width: 100%;
 	gap: 15px;
 	justify-content: space-evenly;
+	max-width: 600px;
 
 }
 
@@ -75,6 +76,11 @@ h1 {
     text-decoration: none;
     width: 50px; /* Ajusta según el tamaño deseado */
     height: 50px;
+}
+
+.redes a:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
 }
 
 .redes a i {
