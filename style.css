@@ -20,6 +20,9 @@ html {
 
 body {
     background: var(--bg-color);
+    display: grid;
+    place-items: center;
+    height: 100%;
     
 }
 
