@@ -27,20 +27,23 @@ h1 {
 	display: flex;
 	width: 100%;
 	gap: 15px;
+	justify-content: center;
 
 }
 
 .redes a {
-	padding: 10px 10px;
-	border-radius: 10px;
-	background: blue;
-	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido del enlace */
+    padding: 10px;
+    border-radius: 10px;
+    background: blue;
+    text-decoration: none;
+    width: 40px; /* Ajusta según el tamaño deseado */
+    height: 40px;
 }
 
 .redes a i {
-	color: white;
-	width: 10px;
-	heigh: 10px;
-	text-align: center;
-	
+    color: white;
+    font-size: 16px; /* Ajusta el tamaño del ícono */
 }
