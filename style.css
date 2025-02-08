@@ -50,6 +50,7 @@ h1 {
 }
 
 .redes {
+    margin-top: -50px;
 	display: flex;
 	width: 100%;
 	gap: 15px;
